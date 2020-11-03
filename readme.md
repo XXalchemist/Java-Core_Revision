@@ -17,7 +17,7 @@
 
 <br>
 
-> To be added later on :- File Handling
+> To be added later on :- Iterators, File Handling
 
 
 ## 1. Datatypes
@@ -78,5 +78,37 @@ switch(variable){
     .
     .
     default : System.out.println("This always runs");
+}
+```
+
+## 5. Loops
+
+- For Loop
+- While Loop
+- Do-while Loop
+- Enhanced For Loop
+
+_Syntax :-_
+
+```java
+// For loop
+for(initializer; condition; counter){
+
+}
+
+// While loop
+while(condition){
+
+}
+
+// Do-while loop
+do{
+
+}
+while(condition);
+
+// Enhanced For loop
+for(datatype_name var_name : iteratableObject ){
+
 }
 ```
