@@ -28,10 +28,19 @@ Java have two datatypes :-
 
 *Object is parent class of all classes.*
 
-__Syntax :-__
+_Syntax :-_
 
 ```Java
 //datatype_name var_name = value;
 
 int value = 5;
 ```
+## Access Modifiers
+
+_Used for class, variables, methods._
+
+|**Default**|**Private**|**Protected**|**Public**|
+|-----------|-----------|-------------|----------|
+|Visible to the package|Visible to the class only|Visible to package and all subclasses|Visible to the world|
+|For a class, field, method etc| Class and Interface can't be private| Variables, methods and constructors which are declared protected in a superclass can be accessed only by the subclass| Fields, Methods, blocks declared inside public can be accesed from any class in java|
+           
