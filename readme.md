@@ -7,7 +7,7 @@
 |3.| Static, Final and Abstract|
 |4.| If Else, Switch|
 |5.| Loops|
-|6.| Break. continue|
+|6.| Break, continue|
 |7.| Methods|
 |8.| Class|
 |9.| OOPs Concept|
@@ -110,5 +110,41 @@ while(condition);
 // Enhanced For loop
 for(datatype_name var_name : iteratableObject ){
 
+}
+```
+
+## 6. Break and continue
+
+- **break** : used to come out of the iteation/loop.
+- **continue** : goes to next iteration.
+
+_Syntax :-_
+```java
+break;
+
+continue;
+```
+
+## 7. Methods/Functions
+
+_Block of code used to make code reusable._
+
+_Syntax :-_
+```java
+
+/* Syntax
+Access_modifier_name returnType methodName (datatype parametersName){
+
+    // method_body
+    return value;
+}
+
+*/
+
+// Example
+public int add(int num1 , int num2){
+
+    int res = num1+num2;
+    return res;
 }
 ```
