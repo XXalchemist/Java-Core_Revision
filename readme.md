@@ -20,7 +20,7 @@
 > To be added later on :- File Handling
 
 
-## Datatypes
+## 1. Datatypes
 
 Java have two datatypes :-
 1. Primitive
@@ -35,7 +35,7 @@ _Syntax :-_
 
 int value = 5;
 ```
-## Access Modifiers
+## 2. Access Modifiers
 
 _Used for class, variables, methods._
 
@@ -43,4 +43,10 @@ _Used for class, variables, methods._
 |-----------|-----------|-------------|----------|
 |Visible to the package|Visible to the class only|Visible to package and all subclasses|Visible to the world|
 |For a class, field, method etc| Class and Interface can't be private| Variables, methods and constructors which are declared protected in a superclass can be accessed only by the subclass| Fields, Methods, blocks declared inside public can be accesed from any class in java|
-           
+
+## 3. Static, Final and Abstract
+
+- **Static** : Belonged to the class , runs firstly at the execution of class and access memory.
+- **Final** : used to declare constant methods, variables.
+- **Abstract** : used only by the extended class(child class).
+- **Finally** : used in try-block to create 'always executing code'.
