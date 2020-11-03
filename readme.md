@@ -50,3 +50,33 @@ _Used for class, variables, methods._
 - **Final** : used to declare constant methods, variables.
 - **Abstract** : used only by the extended class(child class).
 - **Finally** : used in try-block to create 'always executing code'.
+
+## 4. Conditional statement
+
+- if-else-elseif
+- switch
+
+_Syntax :-_
+```java
+// if-else
+if(condition){
+
+}
+else if {
+
+}
+else{
+
+}
+
+// switch
+switch(variable){
+
+    case variable_choice :  ;
+    break;
+    .
+    .
+    .
+    default : System.out.println("This always runs");
+}
+```
