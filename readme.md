@@ -17,4 +17,21 @@
 
 <br>
 
->To be added later on :- File Handling
+> To be added later on :- File Handling
+
+
+## Datatypes
+
+Java have two datatypes :-
+1. Primitive
+2. Reference
+
+*Object is parent class of all classes.*
+
+__Syntax :-__
+
+```Java
+//datatype_name var_name = value;
+
+int value = 5;
+```
